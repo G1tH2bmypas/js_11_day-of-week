@@ -7,7 +7,7 @@ function dayOfWeek(day) {
 		case day === 5 : return 'thursday';
 		case day === 6 : return 'friday';
 		case day === 7 : return 'saturday';
-		case day < 1 || day > 7 : return '';
+		default : return '';
 
 	}
 }
